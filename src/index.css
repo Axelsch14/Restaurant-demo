@@ -1,0 +1,22 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --white: #ffffff;
+  --off-white: #F9F8F6;
+  --light: #F2F0EC;
+  --border: #E8E4DE;
+  --text: #1A1A1A;
+  --text-secondary: #7A7570;
+  --accent: #1A1A1A;
+  --green: #2D5016;
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans: 'Inter', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: var(--sans); background: var(--white); color: var(--text); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+button { font-family: var(--sans); cursor: pointer; }
+input, select, textarea { font-family: var(--sans); }
+::selection { background: #1A1A1A; color: white; }
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-thumb { background: #1A1A1A; }
